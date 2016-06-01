@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link type="text/css" href="../assets/css/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="../assets/js/nameCall.js">
+    </script>
+</head>
+<body>
+
+<div class="background">
+
+    <select>
+        {{#personList}}
+            <option>
+                {{getFullName}}
+            </option>
+        {{/personList}}
+    </select>
+    <div class="mid">
+        <div id="logo"></div>
+        <input type="text" id="textInput" onkeyup="showHint(this.value)">
+        <div id="dropdown">
+            <ul id="txtHint">
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

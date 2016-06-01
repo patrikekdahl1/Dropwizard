@@ -1,0 +1,200 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardConfiguration.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardConfiguration.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardConfiguration.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java, /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Java sources to /Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@48170c4b directly...[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardConfiguration.java:3: package com.yammer.dropwizard.config does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.config.Configuration;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardConfiguration.java:5: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol: class Configuration[0m
+[0m[[31merror[0m] [0mpublic class DropwizardConfiguration extends Configuration{[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:3: package com.mongodb does not exist[0m
+[0m[[31merror[0m] [0mimport com.mongodb.MongoClient;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:4: package com.mongodb.client does not exist[0m
+[0m[[31merror[0m] [0mimport com.mongodb.client.MongoDatabase;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:6: package com.yammer.dropwizard does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.Service;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:7: package com.yammer.dropwizard.assets does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.assets.AssetsBundle;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:8: package com.yammer.dropwizard.config does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.config.Bootstrap;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:9: package com.yammer.dropwizard.config does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.config.Environment;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:10: package com.yammer.dropwizard.views does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.views.ViewBundle;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:13: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol: class Service[0m
+[0m[[31merror[0m] [0mpublic class DropwizardService extends Service<DropwizardConfiguration>{[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:15: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class MongoDatabase[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m    public static MongoDatabase db;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:16: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class MongoClient[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m    public static MongoClient mongoClient;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:26: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Bootstrap[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m    public void initialize(Bootstrap<DropwizardConfiguration> bootstrap) {[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:32: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Environment[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m    public void run(DropwizardConfiguration configuration, Environment environment) {[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:3: package com.fasterxml.jackson.annotation does not exist[0m
+[0m[[31merror[0m] [0mimport com.fasterxml.jackson.annotation.JsonProperty;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:4: package org.bson does not exist[0m
+[0m[[31merror[0m] [0mimport org.bson.Document;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:5: package org.bson.types does not exist[0m
+[0m[[31merror[0m] [0mimport org.bson.types.ObjectId;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:31: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Document[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.core.Person[0m
+[0m[[31merror[0m] [0m    public Person(Document document){[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:3: package com.mongodb does not exist[0m
+[0m[[31merror[0m] [0mimport com.mongodb.*;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:4: package com.mongodb.client does not exist[0m
+[0m[[31merror[0m] [0mimport com.mongodb.client.FindIterable;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:7: package org.bson does not exist[0m
+[0m[[31merror[0m] [0mimport org.bson.Document;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:9: package javax.ws.rs does not exist[0m
+[0m[[31merror[0m] [0mimport javax.ws.rs.*;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:10: package javax.ws.rs.core does not exist[0m
+[0m[[31merror[0m] [0mimport javax.ws.rs.core.*;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:16: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol: class Path[0m
+[0m[[31merror[0m] [0m@Path("/")[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:19: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class FindIterable[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    FindIterable<Document> iterable;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:19: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Document[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    FindIterable<Document> iterable;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java:3: package com.fasterxml.jackson.annotation does not exist[0m
+[0m[[31merror[0m] [0mimport com.fasterxml.jackson.annotation.JsonProperty;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java:7: package com.yammer.dropwizard.views does not exist[0m
+[0m[[31merror[0m] [0mimport com.yammer.dropwizard.views.View;[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java:9: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol: class View[0m
+[0m[[31merror[0m] [0mpublic class PersonView extends View{[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:15: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class JsonProperty[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.core.Person[0m
+[0m[[31merror[0m] [0m    @JsonProperty[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:19: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class JsonProperty[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.core.Person[0m
+[0m[[31merror[0m] [0m    @JsonProperty[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/core/Person.java:22: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class JsonProperty[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.core.Person[0m
+[0m[[31merror[0m] [0m    @JsonProperty[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:29: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class QueryParam[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    public PersonView view(@QueryParam("name") String name) {[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:25: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Path[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    @Path("person")[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:26: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Produces[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    @Produces({MediaType.APPLICATION_JSON, MediaType.TEXT_HTML})[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:27: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Consumes[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    @Consumes(MediaType.APPLICATION_JSON)[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:28: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class GET[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m    @GET[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java:11: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class JsonProperty[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.views.PersonView[0m
+[0m[[31merror[0m] [0m    @JsonProperty[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/views/PersonView.java:19: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class JsonProperty[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.views.PersonView[0m
+[0m[[31merror[0m] [0m    @JsonProperty[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:19: method run in class com.pedro.DropwizardService cannot be applied to given types;[0m
+[0m[[31merror[0m] [0m  required: com.pedro.DropwizardConfiguration,Environment[0m
+[0m[[31merror[0m] [0m  found: java.lang.String[][0m
+[0m[[31merror[0m] [0m  reason: actual and formal argument lists differ in length[0m
+[0m[[31merror[0m] [0m        new DropwizardService().run(args);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:20: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class MongoClient[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m        mongoClient = new MongoClient("localhost", 27017);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:25: method does not override or implement a method from a supertype[0m
+[0m[[31merror[0m] [0m    @Override[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:27: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class ViewBundle[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m        bootstrap.addBundle(new ViewBundle());[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:28: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class AssetsBundle[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.DropwizardService[0m
+[0m[[31merror[0m] [0m        bootstrap.addBundle(new AssetsBundle());[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/DropwizardService.java:31: method does not override or implement a method from a supertype[0m
+[0m[[31merror[0m] [0m    @Override[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:36: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject fName = new BasicDBObject("fName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:36: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject fName = new BasicDBObject("fName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:37: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject lName = new BasicDBObject("lName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:37: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject lName = new BasicDBObject("lName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:38: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject fullName = new BasicDBObject("fullName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:38: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject fullName = new BasicDBObject("fullName", regex);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:40: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBList[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBList or = new BasicDBList();[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:40: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBList[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBList or = new BasicDBList();[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:45: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject query = new BasicDBObject("$or", or);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:45: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class BasicDBObject[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            BasicDBObject query = new BasicDBObject("$or", or);[0m
+[0m[[31merror[0m] [0m/Users/patrikekdahlspeddodator/IdeaProjects/Dropwizard/src/main/java/com/pedro/resources/DropwizardResource.java:49: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   class Document[0m
+[0m[[31merror[0m] [0m  location: class com.pedro.resources.DropwizardResource[0m
+[0m[[31merror[0m] [0m            for(Document document : iterable){[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) javac returned nonzero exit code[0m
